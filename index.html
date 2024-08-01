@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="banner">
+        <div class="container">
+            <div class="slide">
+                <div class="item" style="background-image: url('img/img1.jpeg');">
+                    <div class="content">
+                        <div class="name">Bandung</div>
+                        <div class="des">Bandung, kota kembang dengan keindahan alam dan udara sejuk.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('img/img2.jpeg');">
+                    <div class="content">
+                        <div class="name">Banten</div>
+                        <div class="des">Banten, penuh dengan situs sejarah dan budaya.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('img/img3.jpeg');">
+                    <div class="content">
+                        <div class="name">Jakarta</div>
+                        <div class="des">Jakarta, ibu kota Indonesia dengan kehidupan kota yang sibuk.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('img/img4.jpeg');">
+                    <div class="content">
+                        <div class="name">Surabaya</div>
+                        <div class="des">Surabaya, kota pahlawan dengan sejarah perjuangan kemerdekaan.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('img/img5.jpeg');">
+                    <div class="content">
+                        <div class="name">Solo</div>
+                        <div class="des">Solo, kota budaya dengan seni tradisional yang kaya.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('img/img6.jpeg');">
+                    <div class="content">
+                        <div class="name">Yogyakarta</div>
+                        <div class="des">Yogyakarta, kota pelajar dengan banyak destinasi wisata.</div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section id="packages" class="packages">
+        <h2>Our Packages</h2>
+        <div class="packages-container">
+            <div class="package economy">
+                <h3>Economy</h3>
+                <p>Our Economy package offers a budget-friendly option for travelers. Enjoy comfortable accommodations and basic amenities at an affordable price.</p>
+                <ul>
+                    <li>Affordable pricing</li>
+                    <li>Basic amenities</li>
+                    <li>Comfortable accommodations</li>
+                </ul>
+            </div>
+            <div class="package premium">
+                <h3>Premium</h3>
+                <p>Our Premium package provides an upgraded experience with additional perks. Enjoy enhanced amenities, better accommodations, and exclusive services.</p>
+                <ul>
+                    <li>Enhanced amenities</li>
+                    <li>Better accommodations</li>
+                    <li>Exclusive services</li>
+                </ul>
+            </div>
+            <div class="package executive">
+                <h3>Executive</h3>
+                <p>Our Executive package offers the ultimate travel experience. Enjoy luxury accommodations, top-notch services, and personalized experiences tailored to your needs.</p>
+                <ul>
+                    <li>Luxury accommodations</li>
+                    <li>Top-notch services</li>
+                    <li>Personalized experiences</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <textarea id="message" name="message" placeholder="Travel Destionation"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
